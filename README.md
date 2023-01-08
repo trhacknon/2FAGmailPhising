@@ -46,7 +46,7 @@ www-data ALL=(user) NOPASSWD: pathtoscript/root.sh
 ## How to run
 
 ```
-git clone https://github.com/afernandezb92/2FAGmailPhising.git
+git clone https://github.com/trhacknon/2FAGmailPhising.git
 cd 2FAGmailPhising
 pip install -r requirements.txt
 chmod +x run.sh
@@ -60,7 +60,7 @@ El atacante mediante alguna de las de técnicas de hacking (dnsspoofing, ingenie
 _[ENG]  
 The attacker using hacking techniques (dnsspoofing, social engineering, etc.) redirect the victim with 2FA active in gmail to fake gmail web. Once the victim logs in the fake web, the attacker's machine will run a web browser and it will go to original gmail to log in with victim's credentials. This will cause gmail send the validation code to the victim. When the victim receives the code, he will put it in the fake web. The attacker will get the code and will complete the log in the original gmail web, gaining the access to the victim account._
 
-![alt text](https://raw.githubusercontent.com/afernandezb92/2FAGmailPhising/master/gmailPhising2FA.PNG)
+![alt text](https://raw.githubusercontent.com/trhacknon/2FAGmailPhising/master/gmailPhising2FA.PNG)
 
 ## POC
 ![alt text](https://i.imgur.com/H2Hi1JN.gif)
